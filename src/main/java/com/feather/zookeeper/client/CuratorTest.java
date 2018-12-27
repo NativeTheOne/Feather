@@ -32,7 +32,6 @@ public class CuratorTest {
         zookeeperClient.start();
         zookeeperClient.usingNamespace("tricker");
         Stat stat = new Stat();
-        System.gc();
         zookeeperClient.create().creatingParentsIfNeeded().storingStatIn(stat).inBackground(new BackgroundCallback() {
             @Override
             public void processResult(CuratorFramework curatorFramework, CuratorEvent curatorEvent) throws Exception {
@@ -42,6 +41,5 @@ public class CuratorTest {
             }
         }).forPath("/tricker/container/123","TheOne".getBytes());
         TimeUnit.SECONDS.sleep(5);
-        System.gc();
     }
 }
