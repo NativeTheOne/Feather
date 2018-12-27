@@ -11,7 +11,7 @@ import org.apache.zookeeper.data.Stat;
 
 import java.util.concurrent.TimeUnit;
 
-public class CuratorTest {
+public class ZookeeperLoadBalance {
 
     private static CuratorFramework zookeeperClient = CuratorFrameworkFactory.newClient("127.0.0.1:2181", 3000, 4000, new RetryPolicy() {
         @Override
