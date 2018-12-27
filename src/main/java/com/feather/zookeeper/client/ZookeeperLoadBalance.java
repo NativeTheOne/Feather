@@ -41,6 +41,5 @@ public class CuratorTest {
             }
         }).forPath("/tricker/container/123","TheOne".getBytes());
         TimeUnit.SECONDS.sleep(5);
-        System.out.println("master");
     }
 }
