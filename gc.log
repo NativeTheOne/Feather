@@ -1,16 +1,16 @@
 Java HotSpot(TM) 64-Bit Server VM (25.181-b13) for windows-amd64 JRE (1.8.0_181-b13), built on Jul  7 2018 04:01:33 by "java_re" with MS VC++ 10.0 (VS2010)
-Memory: 4k page, physical 8274592k(2544872k free), swap 16547324k(8726104k free)
-CommandLine flags: -XX:InitialHeapSize=2147483648 -XX:MaxHeapSize=2147483648 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseParallelGC 
-2018-12-27T11:35:43.682+0800: 0.548: [GC (System.gc()) [PSYoungGen: 62976K->3335K(611840K)] 62976K->3343K(2010112K), 0.0034837 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2018-12-27T11:35:43.682+0800: 0.551: [Full GC (System.gc()) [PSYoungGen: 3335K->0K(611840K)] [ParOldGen: 8K->3193K(1398272K)] 3343K->3193K(2010112K), [Metaspace: 8031K->8031K(1056768K)], 0.0318002 secs] [Times: user=0.03 sys=0.02, real=0.05 secs] 
-2018-12-27T11:35:48.714+0800: 5.598: [GC (System.gc()) [PSYoungGen: 62976K->543K(611840K)] 66169K->3745K(2010112K), 0.0017945 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
-2018-12-27T11:35:48.716+0800: 5.600: [Full GC (System.gc()) [PSYoungGen: 543K->0K(611840K)] [ParOldGen: 3201K->1980K(1398272K)] 3745K->1980K(2010112K), [Metaspace: 8516K->8516K(1056768K)], 0.0318826 secs] [Times: user=0.08 sys=0.00, real=0.03 secs] 
-Heap
- PSYoungGen      total 611840K, used 15744K [0x00000000d5580000, 0x0000000100000000, 0x0000000100000000)
-  eden space 524800K, 3% used [0x00000000d5580000,0x00000000d64e0200,0x00000000f5600000)
-  from space 87040K, 0% used [0x00000000fab00000,0x00000000fab00000,0x0000000100000000)
-  to   space 87040K, 0% used [0x00000000f5600000,0x00000000f5600000,0x00000000fab00000)
- ParOldGen       total 1398272K, used 1980K [0x0000000080000000, 0x00000000d5580000, 0x00000000d5580000)
-  object space 1398272K, 0% used [0x0000000080000000,0x00000000801ef2f8,0x00000000d5580000)
- Metaspace       used 8530K, capacity 8780K, committed 8832K, reserved 1056768K
-  class space    used 1069K, capacity 1115K, committed 1152K, reserved 1048576K
+Memory: 4k page, physical 8271080k(2834912k free), swap 10347124k(2997108k free)
+CommandLine flags: -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=d:// -XX:InitialHeapSize=2097152 -XX:MaxHeapSize=2097152 -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseParallelGC 
+0.074: [GC (Allocation Failure)  512K->472K(1536K), 0.0013830 secs]
+0.168: [GC (Allocation Failure)  984K->640K(1536K), 0.0008472 secs]
+0.190: [GC (Allocation Failure)  1151K->820K(1536K), 0.0006347 secs]
+0.191: [Full GC (Ergonomics)  820K->765K(1536K), 0.0031705 secs]
+0.210: [Full GC (Ergonomics)  1277K->755K(1536K), 0.0095093 secs]
+0.243: [Full GC (Ergonomics)  1253K->762K(1536K), 0.0038482 secs]
+0.263: [Full GC (Ergonomics)  1274K->856K(1536K), 0.0047093 secs]
+0.281: [Full GC (Ergonomics)  1368K->905K(1536K), 0.0111664 secs]
+0.303: [Full GC (Ergonomics)  1417K->962K(1536K), 0.0058576 secs]
+0.932: [Full GC (Ergonomics)  1463K->1015K(1536K), 0.0061387 secs]
+1.058: [Full GC (Ergonomics)  1469K->1211K(1536K), 0.0202880 secs]
+1.084: [Full GC (Ergonomics)  1469K->1292K(1536K), 0.0124020 secs]
+1.102: [Full GC (Ergonomics)  1419K->1291K(1536K), 0.0073067 secs]
